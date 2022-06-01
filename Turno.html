@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="turno.css">
+    <script src=alertturno.js></script>
+</head>
+<body>
+    <header>Solicitar un turno</header>
+    <form>
+      Es para mí <input type="radio" name="mi"><br>
+      Es para otra persona <input type="radio" name="otr"><br><br>
+      Nombre: <input type="text" name="nombre">
+      Apellido: <input type="text" name="ap"><br><br>
+      Fecha de nacimiento: <input type="date" name="fechanac"><br><br>
+      Dirección: <input type="text" name="dire">
+      Teléfono: <input type="tel" name="tel"><br><br>
+    </form>
+    <div>
+      ¿Posee obra social? <br><br>
+      No <input type="radio" name="no"><br>
+      Sí <input type="radio" name="si"><br><br>
+      ¿Cuál? <br><br>
+
+      <input type="checkbox" name="iom">Ioma<br>
+      <input type="checkbox" name="fed">Federada<br>
+      <input type="checkbox" name="san">Sancor<br>
+      <input type="checkbox" name="osp">Ospedyc<br>
+      <input type="checkbox" name="uom">Osuomra<br>
+     <input type="checkbox" name="otr">Otra  <input type="text" name="otraos"><br><br>  
+    </div>
+  <br><br>
+<p>
+  Elija un día para su turno: <select id="dia" name="diatur">
+    <option value="lu" align="left">Lunes</option>
+    <option value="ma" align="left">Martes</option>
+    <option value="mi" align="left">Miércoles</option>
+    <option value="ju" align="left">Jueves</option>
+    <option value="vi" align="left">Viernes</option>
+    </select><br><br>
+  Elija una hora: <select id="hor" name="horatur">
+      <option value="a" align="right">9:00</option>
+      <option value="b" align="right">9:45</option>
+      <option value="c" align="right">10:30</option>
+      <option value="d" align="right">11:15</option>
+      <option value="e" align="right">14:00</option>
+      <option value="f" align="right">14:45</option>
+      <option value="g" align="right">15:30</option>
+      <option value="h" align="right">16:15</option>
+      </select><br><br><br><br>
+  Indique brevemente el motivo de su consulta <br><br>
+  <textarea cols="70" rows="5"></textarea><br>
+  <input type="submit" name="Enviar">
+  </p> 
+  <a href="pagina principal.html">Volver atrás</a>
+</body>
+</html>

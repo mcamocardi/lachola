@@ -1,0 +1,1 @@
+alert("Debe ser mayor de edad para solicitar un turno");
